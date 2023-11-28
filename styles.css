@@ -248,6 +248,7 @@ height:370px;
 background-color:transparent;
 repeat:no-repeat;
 border-radius:20px;
+transition:0.4s ease-out;  
 
 }
 .hover_2{
@@ -267,6 +268,7 @@ height:370px;
 background-color:transparent;
 repeat:no-repeat;
 border-radius:20px;
+transition:0.4s ease-out;  
 }
 .hover_3{
   background-image: url("./images/millck\ 1.jpg");
@@ -283,6 +285,7 @@ height:370px;
 background-color:transparent;
 repeat:no-repeat;
 border-radius:20px;
+transition:0.4s ease-out;  
 }
 .wrapper{
 padding-top: 130px;
@@ -292,24 +295,24 @@ width:920px;
 display: flex;
 height: 370px;
 margin-left: 90px;
+padding-bottom:90px;
 
 }
+
 .more_cases{
-background-image: url("./images/mc\ 1.svg");
-background-color: transparent;
-border:none;
-width:97px;
-height:97px;
-margin-top:630px;
-
+  background-image: url("./images/mc\ 1.svg");
+  height:97px;
+  width:97px;
+  background-color: transparent;
+  border:none;
 }
-
 .more_cases:hover{
-  background-image:url("./images/mc\ 2.svg");
-width:560px;
-height:97px;
-repeat:no-repeat;
-transition: all 0.4s ease-out;
+  background-image: url("./images/mc\ 2.svg");
+  width:518px;
+  transition:0.4s ease-out;
+}
+.disposition{
+  margin-right: 1150px;
+  padding-left: 90px;
 
-  
 }
