@@ -1,0 +1,315 @@
+
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 200px;
+ margin-right:200px;
+ margin-top:82px; 
+    }
+    .menu_item{
+padding-right:240px;
+    }
+    .menu_item:last-child{
+      margin-right:0px;
+    }
+    .container{
+      margin-left:166px;
+      position:relative;
+      min-height: 350px;
+  
+      padding-top: 190px;
+    }
+    #myVideo {
+    
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%; 
+        min-height: 100%;
+        z-index: -999;
+    }
+    
+    
+      
+    body{
+      background-color:black;
+    height: 3778px;
+    width: 1440px;
+    }
+    
+    a{
+      color:white;
+      font-family: Geologica;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration: none;
+    }
+    
+    .kiki{
+      position: absolute;
+      margin-top:-20px;
+      margin-left:212px;
+      width: 237px;
+height: 141px;
+    }
+    .the_exacter_form{
+      position: absolute;
+      color: #FFF;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'case' on, 'cpsp' on;
+font-family: Geologica;
+font-size: 28px;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+
+margin-left:795px;
+margin-top:-25px;
+
+    }
+    .and{
+      position: absolute;
+      margin-left:490px;
+      margin-top:129px;
+    }
+
+    .the_stronger_perception{
+      position:absolute;
+      margin-left:110px;
+     margin-top:340px;
+     color: #FFF;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'case' on, 'cpsp' on;
+font-family: Geologica;
+font-size: 28px;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+    }
+
+    .buba{
+
+      margin-left:535px;
+      margin-top:255px;
+    }
+ .number_2{
+  color: #FFF;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'case' on, 'cpsp' on;
+font-family: Geologica;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left:91px;
+margin-top:241px;
+width: 40px;
+height: 17px;
+flex-shrink: 0;
+ }   
+ .border_1{
+  width: 989px;
+height: 0px;
+flex-shrink: 0;
+padding-left:67px;
+margin-top:-15px;
+margin-left:198px;
+ }
+
+ .about{
+  color: #FFF;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'case' on, 'cpsp' on;
+font-family: Geologica;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 71px;
+height: 17px;
+flex-shrink: 0;
+margin-right:104px;
+padding-left:78px;
+margin-left:1265px;
+margin-top:-8px;
+padding-bottom:166px;
+ }
+
+ .team_image{
+width: 525px;
+height: 520px;
+flex-shrink: 0;
+border-radius: 20px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat, url(<path-to-image>), lightgray 50% / cover no-repeat;
+margin-left:91px;
+padding-bottom:-288px;
+
+ }
+ .about_team{
+  width: 629px;
+height: 232px;
+flex-shrink: 0;
+color: #FFF;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'case' on, 'cpsp' on;
+font-family: Geologica;
+font-size: 28px;
+font-style: normal;
+font-weight: 300;
+line-height: 33.6px; /* 120% */
+margin-left:616px;
+padding-left:104px;
+margin-top:-520px;
+
+ }
+
+.button_about{
+  
+ border:none;
+ background:none;
+ 
+  padding-top: 90px;
+  margin-left:720px;
+  
+  background-image: url("./images/1.svg");
+  width:100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.button_about:hover{
+  background-image:url("./images/2.svg");
+  opacity: 100%;
+  width:520px;
+  height: 100px;
+  transition:0.4s ease-out;
+  
+ 
+
+ 
+}
+.unit_3{
+  color: #FFF;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'case' on, 'cpsp' on;
+font-family: Geologica;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top:315px;
+margin-left:90px;
+width:24px;
+height:30px;
+}
+
+.border_3{
+
+  padding-left:67px;
+  margin-left:123px;
+  margin-top: -17px;
+}
+.cases{
+  color: #FFF;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'case' on, 'cpsp' on;
+font-family: Geologica;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 80px;
+margin-left:1185px;
+margin-top:-25px;
+}
+.hover_1{
+background-image:url("./images/garage_1.jpg");
+width:370px;
+height:370px;
+background-color:transparent;
+repeat:no-repeat;
+border-radius:20px;
+}
+.hover_1:hover{
+  background-image:url("./images/garage_2.jpg");
+  width:370px;
+height:370px;
+background-color:transparent;
+repeat:no-repeat;
+border-radius:20px;
+
+}
+.hover_2{
+  background-image:url("./images/thundercat\ 1.jpg");
+  border-radius:20px;
+  width:370px;
+height:370px;
+background-color:transparent;
+repeat:no-repeat;
+margin-right:55px;
+margin-left:55px;
+}
+.hover_2:hover{
+  background-image: url("./images/thundercat\ 2.jpg");
+  width:370px;
+height:370px;
+background-color:transparent;
+repeat:no-repeat;
+border-radius:20px;
+}
+.hover_3{
+  background-image: url("./images/millck\ 1.jpg");
+  border-radius:20px;
+  width:370px;
+height:370px;
+background-color:transparent;
+repeat:no-repeat;
+}
+.hover_3:hover{
+  background-image:url("./images/millck\ 2.jpg");
+  width:370px;
+height:370px;
+background-color:transparent;
+repeat:no-repeat;
+border-radius:20px;
+}
+.wrapper{
+padding-top: 130px;
+float: left;
+align:center;
+width:920px;
+display: flex;
+height: 370px;
+margin-left: 90px;
+
+}
+.more_cases{
+background-image: url("./images/mc\ 1.svg");
+background-color: transparent;
+border:none;
+width:97px;
+height:97px;
+margin-top:630px;
+
+}
+
+.more_cases:hover{
+  background-image:url("./images/mc\ 2.svg");
+width:560px;
+height:97px;
+repeat:no-repeat;
+transition: all 0.4s ease-out;
+
+  
+}
