@@ -4,22 +4,32 @@ header{
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 200px;
- margin-right:200px;
- margin-top:82px; 
+
     }
-    .menu_item{
-padding-right:240px;
+    .container_wrapper{
+      padding:0;
+      display: flex;
+      flex-flow:row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      width:1040px;
+      padding-top: 80px;
+      padding-left:200px;
+      padding-right:200px;
     }
-    .menu_item:last-child{
-      margin-right:0px;
-    }
+
+    
     .container{
-      margin-left:166px;
+      margin:0 auto;
       position:relative;
       min-height: 350px;
-  
-      padding-top: 190px;
+  padding-top: 190px;
+      align:center;
+      display: flex;
+      padding-left:500px;
+      padding-right:350px;
+      
     }
     #myVideo {
     
@@ -35,8 +45,7 @@ padding-right:240px;
       
     body{
       background-color:black;
-    height: 3778px;
-    width: 1440px;
+margin: 0;
     }
     
     a{
@@ -98,32 +107,19 @@ line-height: normal;
       margin-left:535px;
       margin-top:255px;
     }
- .number_2{
-  color: #FFF;
-leading-trim: both;
-text-edge: cap;
-font-feature-settings: 'case' on, 'cpsp' on;
-font-family: Geologica;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-left:91px;
-margin-top:241px;
-width: 40px;
-height: 17px;
-flex-shrink: 0;
- }   
- .border_1{
-  width: 989px;
-height: 0px;
-flex-shrink: 0;
-padding-left:67px;
-margin-top:-15px;
-margin-left:198px;
- }
+    .pagination_wrapper{
+width:70%;
+align-items:center;
+display:flex;
+padding-top: 240px;
+padding-bottom:160px;
+justify-content:space-evenly;
+padding-left:300px;
+padding-right:120px;
+min-width: 1240px;
 
- .about{
+    }
+ .pagination_style{
   color: #FFF;
 leading-trim: both;
 text-edge: cap;
@@ -133,29 +129,32 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-width: 71px;
-height: 17px;
 flex-shrink: 0;
-margin-right:104px;
-padding-left:78px;
-margin-left:1265px;
-margin-top:-8px;
-padding-bottom:166px;
- }
+}
+
+.section_wrapper{;
+  display: flex;
+  align-item:flex-start;
+  padding:0;
+  align:center;
+  
+    
+}
+
+
 
  .team_image{
 width: 525px;
 height: 520px;
 flex-shrink: 0;
-border-radius: 20px;
+border-radius: 25px;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat, url(<path-to-image>), lightgray 50% / cover no-repeat;
-margin-left:91px;
-padding-bottom:-288px;
+padding-left:380px;
+
 
  }
  .about_team{
-  width: 629px;
-height: 232px;
+
 flex-shrink: 0;
 color: #FFF;
 leading-trim: both;
@@ -166,9 +165,10 @@ font-size: 28px;
 font-style: normal;
 font-weight: 300;
 line-height: 33.6px; /* 120% */
-margin-left:616px;
-padding-left:104px;
-margin-top:-520px;
+padding-left:100px;
+padding-bottom:90px;
+max-width: 630px;
+
 
  }
 
@@ -176,63 +176,29 @@ margin-top:-520px;
   
  border:none;
  background:none;
- 
-  padding-top: 90px;
-  margin-left:720px;
-  
-  background-image: url("./images/1.svg");
+    background-image: url("./images/1.svg");
   width:100px;
   height: 100px;
   background-repeat: no-repeat;
   background-color: transparent;
+  transition:0.4s ease-out;
+
+
+  
 }
+
 .button_about:hover{
   background-image:url("./images/2.svg");
   opacity: 100%;
   width:520px;
   height: 100px;
   transition:0.4s ease-out;
-  
- 
+  }
 
- 
-}
-.unit_3{
-  color: #FFF;
-leading-trim: both;
-text-edge: cap;
-font-feature-settings: 'case' on, 'cpsp' on;
-font-family: Geologica;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-top:315px;
-margin-left:90px;
-width:24px;
-height:30px;
-}
 
-.border_3{
 
-  padding-left:67px;
-  margin-left:123px;
-  margin-top: -17px;
-}
-.cases{
-  color: #FFF;
-leading-trim: both;
-text-edge: cap;
-font-feature-settings: 'case' on, 'cpsp' on;
-font-family: Geologica;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-left: 80px;
-margin-left:1185px;
-margin-top:-25px;
-}
+
+
 .hover_1{
 background-image:url("./images/garage_1.jpg");
 width:370px;
@@ -240,6 +206,7 @@ height:370px;
 background-color:transparent;
 repeat:no-repeat;
 border-radius:20px;
+transition:0.4s ease-out;
 }
 .hover_1:hover{
   background-image:url("./images/garage_2.jpg");
@@ -260,6 +227,7 @@ background-color:transparent;
 repeat:no-repeat;
 margin-right:55px;
 margin-left:55px;
+transition:0.4s ease-out;
 }
 .hover_2:hover{
   background-image: url("./images/thundercat\ 2.jpg");
@@ -277,6 +245,7 @@ transition:0.4s ease-out;
 height:370px;
 background-color:transparent;
 repeat:no-repeat;
+transition:0.4s ease-out;
 }
 .hover_3:hover{
   background-image:url("./images/millck\ 2.jpg");
@@ -288,16 +257,17 @@ border-radius:20px;
 transition:0.4s ease-out;  
 }
 .wrapper{
-padding-top: 130px;
+
 float: left;
 align:center;
+justify-content: space-between;
 width:920px;
 display: flex;
 height: 370px;
-margin-left: 90px;
-padding-bottom:90px;
+padding-left: 360px;
 
 }
+
 
 .more_cases{
   background-image: url("./images/mc\ 1.svg");
@@ -305,14 +275,49 @@ padding-bottom:90px;
   width:97px;
   background-color: transparent;
   border:none;
+  transition:0.4s ease-out;
+
+
 }
 .more_cases:hover{
   background-image: url("./images/mc\ 2.svg");
   width:518px;
   transition:0.4s ease-out;
 }
-.disposition{
-  margin-right: 1150px;
-  padding-left: 90px;
+.last_wrapper{
+  margin:0 auto;
+  position:relative;
+  min-height: 350px;
+padding-top: 330px;
+  align:center;
+  display: flex;
+  padding-left:350px;
+  padding-right:350px;
+}
+.text{
+  color: #FFF;
+text-align: center;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'case' on, 'cpsp' on;
+font-family: Geologica;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 
+}
+.get_acquainted{
+  background-image: url("./images/not_hover.svg");
+  transition:0.4s ease-out;
+  height:100px;
+  width:560px;
+  flex-shrink:0;
+  border:none;
+background-color:transparent;
+}
+
+
+.get_acquainted:hover{
+  background-image: url("./images/hover.svg");
 }
