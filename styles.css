@@ -168,6 +168,8 @@ line-height: 33.6px; /* 120% */
 padding-left:100px;
 padding-bottom:90px;
 max-width: 630px;
+max-height: 230px;
+
 
 
  }
@@ -182,6 +184,8 @@ max-width: 630px;
   background-repeat: no-repeat;
   background-color: transparent;
   transition:0.4s ease-out;
+margin-top: 320px;
+margin-left:-624px;
 
 
   
@@ -193,6 +197,7 @@ max-width: 630px;
   width:520px;
   height: 100px;
   transition:0.4s ease-out;
+
   }
 
 
@@ -276,6 +281,8 @@ padding-left: 360px;
   background-color: transparent;
   border:none;
   transition:0.4s ease-out;
+  margin-top:420px;
+  padding-right:500px;
 
 
 }
@@ -285,7 +292,7 @@ padding-left: 360px;
   transition:0.4s ease-out;
 }
 .last_wrapper{
-  margin:0 auto;
+  margin:auto;
   position:relative;
   min-height: 350px;
 padding-top: 330px;
@@ -304,9 +311,9 @@ font-family: Geologica;
 font-size: 64px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
-
+margin:auto;
 }
+
 .get_acquainted{
   background-image: url("./images/not_hover.svg");
   transition:0.4s ease-out;
@@ -315,9 +322,11 @@ line-height: normal;
   flex-shrink:0;
   border:none;
 background-color:transparent;
+margin:auto;
 }
 
 
 .get_acquainted:hover{
   background-image: url("./images/hover.svg");
+  margin:auto;
 }
