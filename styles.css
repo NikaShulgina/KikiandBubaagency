@@ -27,7 +27,7 @@ header{
   padding-top: 190px;
       align:center;
       display: flex;
-      padding-left:500px;
+      padding-left:425px;
       padding-right:350px;
       
     }
@@ -262,21 +262,17 @@ border-radius:20px;
 transition:0.4s ease-out;  
 }
 .wrapper{
-
-float: left;
-align:center;
-justify-content: space-between;
-width:920px;
+max-width:1240px;
+justify-content: space-between; 
 display: flex;
 height: 370px;
-padding-left: 360px;
+margin:0 auto;
 
 
 }
 .section_wrapper_2{
-  display:flex;
-  flex-wrap:wrap;
-  align:center;
+ 
+  position:relative;
 }
 
 
@@ -287,7 +283,12 @@ padding-left: 360px;
   background-color: transparent;
   border:none;
   transition:0.4s ease-out;
-  margin-top:420px;
+  repeat:no-repeat;
+  margin-left:280px;
+  margin-top:90px;
+
+ 
+  
 
 }
 .more_cases:hover{
