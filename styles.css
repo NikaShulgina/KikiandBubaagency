@@ -28,7 +28,7 @@ header{
       align:center;
       display: flex;
       padding-left:250px;
-      max-width:1440px;
+    
       
     }
     #myVideo {
@@ -134,10 +134,10 @@ flex-shrink: 0;
 .section_wrapper{;
   display: flex;
   align-item:flex-start;
-  padding:0;
+  padding-left: 120px;
   align:center;
   margin: 0 auto;
-  max-width: 1245px;
+
  
  
     
@@ -265,7 +265,7 @@ border-radius:20px;
 transition:0.4s ease-out;  
 }
 .wrapper{
-max-width:1240px;
+
 justify-content: space-between; 
 display: flex;
 height: 370px;
@@ -277,7 +277,7 @@ margin:0 auto;
 .section_wrapper_2{
  
   margin: 0 auto;
-  max-width: 1440px;
+ 
   display: flex;
   align: center;
   padding-left:130px;
@@ -315,7 +315,7 @@ padding-top: 330px;
   display: flex;
   flex-wrap:wrap;
   padding-left:100px;
-  max-width:1440px;
+
   
 
 }
